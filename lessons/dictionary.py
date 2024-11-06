@@ -6,8 +6,10 @@ ice_cream: dict[str, int] = {
     "strawberry": 4,
 }
 
-burgers: dict[str, str] = dict()
-burgers: 
+burger: dict[int, str] = dict()
+burger[1] = "beef"
+burger[2] = "pork"
+burger[3] = "chicken"
 
 # len of dict lets us know number of entries
 print(len(ice_cream))  # How many ice creams are there?
